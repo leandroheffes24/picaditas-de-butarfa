@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'nexa-rust.sans-black';
+    src: url('./nexa-rust.sans-black.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'nexa-light';
+    src: url('./nexa-light.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}

@@ -1,25 +1,12 @@
 import './App.css'
 import Home from './components/Home/Home'
+import NuestrasEspecialidades from './components/NuestrasEspecialidades/NuestrasEspecialidades'
 
 function App() {
   return (
     <>
     <Home/>
-    <h1>noedno</h1>
-    <h1>noedno</h1>
-    <h1>noedno</h1>
-    <h1>noedno</h1>
-    <h1>noedno</h1>
-    <h1>noedno</h1>
-    <h1>noedno</h1>
-    <h1>noedno</h1>
-    <h1>noedno</h1>
-    <h1>noedno</h1>
-    <h1>noedno</h1>
-    <h1>noedno</h1>
-    <h1>noedno</h1>
-    <h1>noedno</h1>
-    <h1>noedno</h1>
+    <NuestrasEspecialidades/>
     </>
   )
 }

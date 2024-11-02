@@ -1,7 +1,7 @@
 .homeSection{
     height: 100vh;
     position: relative;
-    background-image: url('../../assets/homeBackground.jpg');
+    background-image: url('../../assets/homeBackground.webp');
     background-position: center;
     background-size: cover;
 }

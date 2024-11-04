@@ -9,6 +9,22 @@ export default function Header(){
         setIsMenuOpen(!isMenuOpen)
     }
 
+    const scrollToSection = (e: React.MouseEvent<HTMLAnchorElement>) => {
+        const hash = e.target.hash
+        const newHash = hash.slice(1)
+        
+        e.preventDefault()
+
+        const section = document.getElementById(newHash)
+        if(section){
+            const top = section.getBoundingClientRect().top + window.scrollY - 100
+            window.scrollTo({
+                top: top,
+                behavior: 'smooth'
+            })
+        }
+    }
+
     return(
         <header className={styles.header}>
             <div className={styles.logoContainer}>
@@ -38,7 +54,7 @@ export default function Header(){
                 <nav className={styles.mobileNavbar}>
                     <ul className={styles.navbarList}>
                         <li className={styles.navbarItem}>
-                            <a onClick={toggleMenu} className={styles.navbarLink} href="/">Inicio</a>
+                            <a onClick={toggleMenu} className={styles.navbarLink} href="#home">Inicio</a>
                         </li>
 
                         <li className={styles.navbarItem}>
@@ -59,19 +75,19 @@ export default function Header(){
             <nav className={styles.desktopNavbar}>
                 <ul className={styles.desktopNavbarList}>
                     <li className={styles.desktopNavbarItem}>
-                        <a className={styles.desktopNavbarLink} href="/">Inicio</a>
+                        <a onClick={scrollToSection} className={styles.desktopNavbarLink} href="#home">Inicio</a>
                     </li>
 
                     <li className={styles.desktopNavbarItem}>
-                        <a className={styles.desktopNavbarLink} href="#nuestras-especialidades">Nuestras especialidades</a>
+                        <a onClick={scrollToSection} className={styles.desktopNavbarLink} href="#nuestras-especialidades">Nuestras especialidades</a>
                     </li>
 
                     <li className={styles.desktopNavbarItem}>
-                        <a className={styles.desktopNavbarLink} href="#galeria">Galería</a>
+                        <a onClick={scrollToSection} className={styles.desktopNavbarLink} href="#galeria">Galería</a>
                     </li>
 
                     <li className={styles.desktopNavbarItem}>
-                        <a className={styles.desktopNavbarLink} href="#contacto">Contacto</a>
+                        <a onClick={scrollToSection} className={styles.desktopNavbarLink} href="#contacto">Contacto</a>
                     </li>
                 </ul>
             </nav>

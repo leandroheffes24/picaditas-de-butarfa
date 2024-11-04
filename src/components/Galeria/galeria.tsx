@@ -18,6 +18,10 @@ export default function Galeria(){
                 <img className={styles.photo} src={Photo} alt="" />
                 <img className={styles.photo} src={Photo} alt="" />
                 <img className={styles.photo} src={Photo} alt="" />
+                <img className={styles.photo} src={Photo} alt="" />
+                <img className={styles.photo} src={Photo} alt="" />
+                <img className={styles.photo} src={Photo} alt="" />
+                <img className={styles.photo} src={Photo} alt="" />
             </div>
         </section>
     )

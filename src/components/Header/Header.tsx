@@ -10,11 +10,11 @@ export default function Header(){
     }
 
     const scrollToSection = (e: React.MouseEvent<HTMLAnchorElement>) => {
-        const hash = e.target.hash
+        const target = e.target as HTMLAnchorElement
+        const hash = target.hash
         const newHash = hash.slice(1)
-        
-        e.preventDefault()
 
+        e.preventDefault()
         const section = document.getElementById(newHash)
         if(section){
             const top = section.getBoundingClientRect().top + window.scrollY - 100

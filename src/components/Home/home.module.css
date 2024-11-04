@@ -24,6 +24,11 @@
     color: white;
 }
 
+.titleSpan{
+    font-family: 'sk-gothenburg-rounded-regular';
+    font-weight: 100;
+}
+
 .homeSubtitle{
     font-family: 'nexa-rust.sans-black';
     font-size: 1.1rem;

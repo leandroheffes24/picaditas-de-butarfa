@@ -4,6 +4,7 @@ import Galeria from './components/Galeria/galeria'
 import Header from './components/Header/Header'
 import Home from './components/Home/Home'
 import NuestrasEspecialidades from './components/NuestrasEspecialidades/NuestrasEspecialidades'
+import PreguntasFrecuentes from './components/PreguntasFrecuentes/PreguntasFrecuentes'
 import Slider from './components/Slider/Slider'
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Slider/>
       <NuestrasEspecialidades/>
       <Galeria/>
+      <PreguntasFrecuentes/>
       <Contacto/>
     </>
   )

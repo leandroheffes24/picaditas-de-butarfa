@@ -71,6 +71,10 @@ export default function Header(){
                             </li>
 
                             <li className={styles.navbarItem}>
+                                <a onClick={toggleMenu} className={styles.navbarLink} href="#preguntas-frecuentes">Preguntar frecuentes</a>
+                            </li>
+
+                            <li className={styles.navbarItem}>
                                 <a onClick={toggleMenu} className={styles.navbarLink} href="#contacto">Contacto</a>
                             </li>
                         </ul>
@@ -89,6 +93,10 @@ export default function Header(){
 
                         <li className={styles.desktopNavbarItem}>
                             <a onClick={scrollToSection} className={styles.desktopNavbarLink} href="#galeria">Galería</a>
+                        </li>
+
+                        <li className={styles.desktopNavbarItem}>
+                            <a onClick={scrollToSection} className={styles.desktopNavbarLink} href="#preguntas-frecuentes">Preguntas frecuentes</a>
                         </li>
 
                         <li className={styles.desktopNavbarItem}>

@@ -26,6 +26,10 @@
     font-size: .9rem;
 }
 
+.splideDesktopContainer{
+    display: none;
+}
+
 @media(width>=768px){
     .slider{
         gap: 13px;

@@ -1,5 +1,6 @@
 import styles from './galeria.module.css'
 import Photo from '../../assets/picada.jpg'
+import SinTacc from '../../assets/sin-tacc.png'
 
 export default function Galeria(){
     return(
@@ -22,6 +23,11 @@ export default function Galeria(){
                 <img className={styles.photo} src={Photo} alt="" />
                 <img className={styles.photo} src={Photo} alt="" />
                 <img className={styles.photo} src={Photo} alt="" />
+            </div>
+
+            <div className={styles.sinTaccContainer}>
+                <img className={styles.sinTaccLogo} src={SinTacc} alt="Logo sin tacc" />
+                <span className={styles.sinTaccText}>Consultá por opciones sin T.A.C.C.</span>
             </div>
         </section>
     )

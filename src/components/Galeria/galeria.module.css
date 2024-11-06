@@ -33,6 +33,25 @@
     width: 48%;
 }
 
+.sinTaccContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+.sinTaccLogo{
+    width: 40px;
+    filter: brightness(.9);
+}
+
+.sinTaccText{
+    color: rgb(184, 184, 184);
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
 @media (width>=768px){
     .galeriaSection{
         padding: 120px 20px;
@@ -57,6 +76,20 @@
     
     .photo{
         width: 30%;
+    }
+
+    .sinTaccContainer{
+        gap: 50px;
+        margin-top: 80px;
+    }
+    
+    .sinTaccLogo{
+        width: 50px;
+    }
+    
+    .sinTaccText{
+        margin-top: 3px;
+        font-size: 1.5rem;
     }
 }
 
@@ -85,6 +118,20 @@
     .photo{
         width: 18%;
     }
+
+    .sinTaccContainer{
+        gap: 40px;
+        margin-top: 70px;
+    }
+    
+    .sinTaccLogo{
+        width: 35px;
+    }
+    
+    .sinTaccText{
+        margin-top: 4px;
+        font-size: 1rem;
+    }
 }
 
 @media (width>=1200px){
@@ -112,5 +159,17 @@
     .photo{
         width: 15%;
         transition: all .5s;
+    }
+
+    .sinTaccContainer{
+        margin-top: 80px;
+    }
+    
+    .sinTaccLogo{
+        width: 45px;
+    }
+    
+    .sinTaccText{
+        font-size: 1.2rem;
     }
 }

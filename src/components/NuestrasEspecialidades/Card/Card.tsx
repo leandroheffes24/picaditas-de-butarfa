@@ -7,9 +7,6 @@ interface CardProps {
 }
 
 const Card: React.FC<CardProps> = ({image, description}) => {
-    console.log("PROP => ", image);
-    console.log("PROP => ", description);
-
     return(
         <div className={styles.card} style={{backgroundImage: `url(${image})`}}>
             <div className={styles.description}>{description}</div>

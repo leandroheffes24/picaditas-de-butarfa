@@ -3,6 +3,10 @@
     color: white;
 }
 
+.splide{
+    z-index: 0;
+}
+
 .slider{
     display: flex;
     flex-direction: column;
@@ -10,6 +14,7 @@
     gap: 13px;
     text-align: center;
     padding: 10px 10px 40px;
+    z-index: 0;
 }
 
 .sliderIcon{

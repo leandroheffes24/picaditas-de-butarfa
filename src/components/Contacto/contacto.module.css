@@ -30,6 +30,12 @@
     margin: auto;
     padding: 12px;
     border-radius: 10px;
+    transition: .3s all;
+}
+
+.whatsAppLink:hover{
+    background-color: #2aa841;
+    transition: .3s all;
 }
 
 .whatsappIcon{

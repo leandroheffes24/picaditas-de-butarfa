@@ -1,5 +1,6 @@
 import './App.css'
 import Contacto from './components/Contacto/Contacto'
+import Footer from './components/Footer/Footer'
 import Galeria from './components/Galeria/galeria'
 import Header from './components/Header/Header'
 import Home from './components/Home/Home'
@@ -17,6 +18,7 @@ function App() {
       <Galeria/>
       <PreguntasFrecuentes/>
       <Contacto/>
+      <Footer/>
     </>
   )
 }

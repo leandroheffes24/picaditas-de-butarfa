@@ -12,7 +12,7 @@
     overflow: hidden;
 }
 
-.card .description {
+.card .content {
     position: absolute;
     top: 0;
     left: 0;
@@ -21,6 +21,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    gap: 30px;
     font-size: 20px;
     font-weight: bold;
     color: white;
@@ -31,7 +33,11 @@
     padding: 0 10px;
 }
 
-.card:hover .description {
+.title{
+    font-size: 22px;
+}
+
+.card:hover .content {
     opacity: 1;
 }
 

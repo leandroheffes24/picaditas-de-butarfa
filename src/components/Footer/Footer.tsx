@@ -1,4 +1,5 @@
 import styles from './footer.module.css'
+import { scrollToSection } from '../../utils/scrollToSection'
 
 export default function Footer(){
     return(
@@ -34,11 +35,11 @@ export default function Footer(){
             <div className={styles.sectionsContainer}>
                 <h4 className={styles.footerTitle}>SECCIONES</h4>
                 <nav className={styles.navbar}>
-                    <a className={styles.navbarLink} href="#home">Inicio</a>
-                    <a className={styles.navbarLink} href="#nuestras-especialidades">Nuestras especialidades</a>
-                    <a className={styles.navbarLink} href="#galeria">Galería</a>
-                    <a className={styles.navbarLink} href="#preguntas-frecuentes">Preguntas frecuentes</a>
-                    <a className={styles.navbarLink} href="#contacto">Contacto</a>
+                    <a onClick={scrollToSection} className={styles.navbarLink} href="#home">Inicio</a>
+                    <a onClick={scrollToSection} className={styles.navbarLink} href="#nuestras-especialidades">Nuestras especialidades</a>
+                    <a onClick={scrollToSection} className={styles.navbarLink} href="#galeria">Galería</a>
+                    <a onClick={scrollToSection} className={styles.navbarLink} href="#preguntas-frecuentes">Preguntas frecuentes</a>
+                    <a onClick={scrollToSection} className={styles.navbarLink} href="#contacto">Contacto</a>
                 </nav>
             </div>
 

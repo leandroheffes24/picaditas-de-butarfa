@@ -1,6 +1,7 @@
 import styles from './header.module.css'
 import Logo from '../../assets/logo.webp'
 import { useState } from 'react'
+import { scrollToSection } from '../../utils/scrollToSection'
 
 export default function Header(){
     const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -9,20 +10,9 @@ export default function Header(){
         setIsMenuOpen(!isMenuOpen)
     }
 
-    const scrollToSection = (e: React.MouseEvent<HTMLAnchorElement>) => {
-        const target = e.target as HTMLAnchorElement
-        const hash = target.hash
-        const newHash = hash.slice(1)
-
-        e.preventDefault()
-        const section = document.getElementById(newHash)
-        if(section){
-            const top = section.getBoundingClientRect().top + window.scrollY - 100
-            window.scrollTo({
-                top: top,
-                behavior: 'smooth'
-            })
-        }
+    const handleMenuClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
+        toggleMenu()
+        scrollToSection(e)
     }
 
     return(
@@ -59,23 +49,23 @@ export default function Header(){
                     <nav className={styles.mobileNavbar}>
                         <ul className={styles.navbarList}>
                             <li className={styles.navbarItem}>
-                                <a onClick={toggleMenu} className={styles.navbarLink} href="#home">Inicio</a>
+                                <a onClick={handleMenuClick} className={styles.navbarLink} href="#home">Inicio</a>
                             </li>
 
                             <li className={styles.navbarItem}>
-                                <a onClick={toggleMenu} className={styles.navbarLink} href="#nuestras-especialidades">Nuestras especialidades</a>
+                                <a onClick={handleMenuClick} className={styles.navbarLink} href="#nuestras-especialidades">Nuestras especialidades</a>
                             </li>
 
                             <li className={styles.navbarItem}>
-                                <a onClick={toggleMenu} className={styles.navbarLink} href="#galeria">Galería</a>
+                                <a onClick={handleMenuClick} className={styles.navbarLink} href="#galeria">Galería</a>
                             </li>
 
                             <li className={styles.navbarItem}>
-                                <a onClick={toggleMenu} className={styles.navbarLink} href="#preguntas-frecuentes">Preguntar frecuentes</a>
+                                <a onClick={handleMenuClick} className={styles.navbarLink} href="#preguntas-frecuentes">Preguntar frecuentes</a>
                             </li>
 
                             <li className={styles.navbarItem}>
-                                <a onClick={toggleMenu} className={styles.navbarLink} href="#contacto">Contacto</a>
+                                <a onClick={handleMenuClick} className={styles.navbarLink} href="#contacto">Contacto</a>
                             </li>
                         </ul>
                     </nav>

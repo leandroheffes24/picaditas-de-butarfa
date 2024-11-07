@@ -10,7 +10,7 @@ export default function NuestrasEspecialidades(){
         <section className={styles.nuestrasEspecialidadesSection} id='nuestras-especialidades'>
             <div className={styles.titleAndSubtitleContainer}>
                 <h3 className={styles.title}>NUESTRAS ESPECIALIDADES</h3>
-                <p className={styles.subTitle}>Las picadas más solicitadas por los clientes.</p>
+                <p className={styles.subTitle}>Cada picadita es hecha con la dedicación que merece cada cliente, es por eso que trabajamos y trabajaremos cada día para ofrecerles la mejor calidad y variedad.</p>
             </div>
 
             <div className={styles.cardsContainer}>

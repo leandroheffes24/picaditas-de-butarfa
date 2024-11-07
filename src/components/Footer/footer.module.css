@@ -23,8 +23,7 @@
     margin: auto;
 }
 
-.socialNetworkIcon{
-    color: white;
+.footerLogo{
     width: 30px;
 }
 
@@ -102,7 +101,7 @@
         width: 70%;
     }
     
-    .socialNetworkIcon{
+    .footerLogo{
         width: 37px;
     }
 
@@ -168,7 +167,7 @@
         font-size: .9rem;
     }
     
-    .socialNetworkIcon{
+    .footerLogo{
         width: 30px;
     }
 
@@ -216,7 +215,7 @@
         font-size: 1rem;
     }
     
-    .socialNetworkIcon{
+    .footerLogo{
         width: 32px;
     }
     

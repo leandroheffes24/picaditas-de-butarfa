@@ -7,6 +7,7 @@ import Home from './components/Home/Home'
 import NuestrasEspecialidades from './components/NuestrasEspecialidades/NuestrasEspecialidades'
 import PreguntasFrecuentes from './components/PreguntasFrecuentes/PreguntasFrecuentes'
 import Slider from './components/Slider/Slider'
+import WhatsappFlotante from './components/WhatsappFlotante/WhatsappFlotante'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <PreguntasFrecuentes/>
       <Contacto/>
       <Footer/>
+      <WhatsappFlotante/>
     </>
   )
 }

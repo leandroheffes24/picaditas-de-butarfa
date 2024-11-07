@@ -11,6 +11,7 @@ import Picada8 from '../../assets/8.webp'
 import Picada9 from '../../assets/9.webp'
 import Picada10 from '../../assets/10.webp'
 import Picada11 from '../../assets/11.webp'
+import Picada12 from '../../assets/12.webp'
 
 export default function Galeria(){
     return(
@@ -21,17 +22,18 @@ export default function Galeria(){
             </div>
 
             <div className={styles.photosContainer}>
-                <img className={styles.photo} src={Picada1} alt="" />
-                <img className={styles.photo} src={Picada2} alt="" />
-                <img className={styles.photo} src={Picada3} alt="" />
-                <img className={styles.photo} src={Picada4} alt="" />
-                <img className={styles.photo} src={Picada5} alt="" />
-                <img className={styles.photo} src={Picada6} alt="" />
-                <img className={styles.photo} src={Picada7} alt="" />
-                <img className={styles.photo} src={Picada8} alt="" />
-                <img className={styles.photo} src={Picada9} alt="" />
-                <img className={styles.photo} src={Picada10} alt="" />
-                <img className={styles.photo} src={Picada11} alt="" />
+                <img className={styles.photo} src={Picada1} alt="Picada 1" />
+                <img className={styles.photo} src={Picada2} alt="Picada 2" />
+                <img className={styles.photo} src={Picada3} alt="Picada 3" />
+                <img className={styles.photo} src={Picada4} alt="Picada 4" />
+                <img className={styles.photo} src={Picada5} alt="Picada 5" />
+                <img className={styles.photo} src={Picada6} alt="Picada 6" />
+                <img className={styles.photo} src={Picada7} alt="Picada 7" />
+                <img className={styles.photo} src={Picada8} alt="Picada 8" />
+                <img className={styles.photo} src={Picada9} alt="Picada 9" />
+                <img className={styles.photo} src={Picada10} alt="Picada 10" />
+                <img className={styles.photo} src={Picada11} alt="Picada 11" />
+                <img className={styles.photo} src={Picada12} alt="Picada 12" />
             </div>
 
             <div className={styles.sinTaccContainer}>

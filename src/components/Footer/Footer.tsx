@@ -1,5 +1,8 @@
 import styles from './footer.module.css'
 import { scrollToSection } from '../../utils/scrollToSection'
+import Facebook from '../../assets/facebook.webp'
+import Instagram from '../../assets/instagram.webp'
+import Tiktok from '../../assets/tiktok.webp'
 
 export default function Footer(){
     return(
@@ -8,26 +11,15 @@ export default function Footer(){
                 <h4 className={styles.footerTitle}>SEGUINOS EN NUESTRAS REDES</h4>
                 <div className={styles.socialNetworks}>
                     <a href="https://www.instagram.com/picaditasdebutarfa?igsh=M2VjNTlkM2RqMTk0">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className={styles.socialNetworkIcon}>
-                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                            <path d="M4 8a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" />
-                            <path d="M9 12a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
-                            <path d="M16.5 7.5v.01" />
-                        </svg>
+                        <img className={styles.footerLogo} src={Instagram} alt="Instagram logo" />
                     </a>
 
                     <a href="https://www.facebook.com/share/U8Yyk49eWNPQdBpr/">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className={styles.socialNetworkIcon}>
-                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                            <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
-                        </svg>
+                        <img className={styles.footerLogo} src={Facebook} alt="Instagram logo" />
                     </a>
 
                     <a href="https://www.tiktok.com/@picaditasdebutarfa?_t=8r7BKTm66HV&_r=1">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className={styles.socialNetworkIcon}>
-                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                            <path d="M21 7.917v4.034a9.948 9.948 0 0 1 -5 -1.951v4.5a6.5 6.5 0 1 1 -8 -6.326v4.326a2.5 2.5 0 1 0 4 2v-11.5h4.083a6.005 6.005 0 0 0 4.917 4.917z" />
-                        </svg>
+                        <img className={styles.footerLogo} src={Tiktok} alt="Instagram logo" />
                     </a>
                 </div>
             </div>

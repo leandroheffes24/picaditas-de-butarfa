@@ -1,4 +1,3 @@
-import './App.css'
 import Contacto from './components/Contacto/Contacto'
 import Footer from './components/Footer/Footer'
 import Galeria from './components/Galeria/galeria'

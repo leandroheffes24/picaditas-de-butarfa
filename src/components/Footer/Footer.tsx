@@ -52,7 +52,7 @@ export default function Footer(){
                         <path d="M11 4h2" />
                         <path d="M12 17v.01" />
                     </svg>
-                    <span className={styles.contactText}>+54 9 11-2345-6789</span>
+                    <span className={styles.contactText}>+54 9 11-5470-1577</span>
                 </div>
             </div>
 

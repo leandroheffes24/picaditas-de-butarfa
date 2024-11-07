@@ -40,7 +40,7 @@ export default function Header(){
                 </div>
 
                 <div className={styles.contactContainer}>
-                    <p className={styles.contactText}><span className={styles.contactTitle}>CONTACTO:</span> +54 9 11-2345-6789</p>
+                    <p className={styles.contactText}><span className={styles.contactTitle}>CONTACTO:</span> +54 9 11-5470-1577</p>
                 </div>
 
                 <div className={styles.separator}></div>

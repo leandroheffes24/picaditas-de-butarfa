@@ -14,6 +14,7 @@ const Card: React.FC<CardProps> = ({image, title, description}) => {
                 <p className={styles.title}>{title}</p>
                 <p>{description}</p>
             </div>
+            <p className={styles.clickHereText}>Clickeá para más detalles</p>
         </div>
     )
 }

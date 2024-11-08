@@ -37,8 +37,18 @@
     font-size: 22px;
 }
 
+.clickHereText{
+    position: absolute;
+    bottom: 0;
+    color: white;
+}
+
 .card:hover .content {
     opacity: 1;
+}
+
+.card:hover .clickHereText {
+    opacity: 0;
 }
 
 .card::before,
@@ -81,12 +91,20 @@
         width: 48%;
         height: 470px;
     }
+
+    .clickHereText{
+        font-size: 1.2rem;
+    }
 }
 
 @media(width>=992px){
     .card {
         width: 24%;
         height: 320px;
+    }
+    
+    .clickHereText{
+        display: none;
     }
 }
 

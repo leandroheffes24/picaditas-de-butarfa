@@ -18,7 +18,7 @@ export default function PreguntasFrecuentes(){
 
                 <PreguntaFrecuente title='Tienen punto de retiro?' description='Si, contamos con dos puntos de retiro: Villa Maipú (San Martin) y Villa Urquiza (CABA).' id='pregunta-retiros'/>
 
-                <PreguntaFrecuente title='Cuáles son los medios de pago disponibles?' description='En efectivo (retirando personalmente), transferencia bancaria o tarjeta de débito/crédito con link de pago o escaneando el código QR.' id='pregunta-medios-de-pago'/>
+                <PreguntaFrecuente title='Cuáles son los medios de pago disponibles?' description='En efectivo (retirando personalmente), transferencia bancaria, tarjeta de débito/crédito con link de pago o escaneando el código QR.' id='pregunta-medios-de-pago'/>
 
                 <PreguntaFrecuente title='Cómo reservo mi pedido?' description='Abonando una seña del 50%.' id='pregunta-reserva'/>
 
